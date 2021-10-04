@@ -26,7 +26,9 @@ public class TestTraffic {
 	
 	@Test
 	public void testGetTraveledTime() {
-		fail("Not yet implemented");
+		List<Integer> travelTime = (List<Integer>) atraffic.getTravelTime();
+		
+		assertEquals(travelTime.size(), 0);
 	}
 	
 	@Test
