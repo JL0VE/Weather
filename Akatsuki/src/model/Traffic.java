@@ -125,7 +125,7 @@ public class Traffic {
 	private String importantTitle(String data) {
 		if (data.contains(city))
 			return data;
-		
+		System.out.println("Failed to find city...");
 		return null;
 	}
 	//130 Tacoma to 147 Federal Way
